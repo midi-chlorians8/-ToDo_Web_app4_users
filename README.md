@@ -15,6 +15,8 @@ uvicorn main:app --reload
 
 
 *
+#uvicorn main:app --reload --port 8000
+
 If some port already busy (test on ubuntu) = sudo fuser -k 8000/tcp
 To clear all container images = sudo docker system prune -a --volumes
 
